@@ -51,8 +51,11 @@ descriptions:
   - cat: deep-learning
     desc: "Posts describing Cognex Deep Learning Solution."
 
-  - cat: base product
+  - cat: base-product
     desc: "Posts describing Cognex Base Product Solution."
+
+  - cat: image-manipulation
+    desc: "Posts describing general Image Manipulation."
 
 # Social icons and sharing options
 #
