@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenCV-C# / Image Flipping Solution"
-date:   2018-09-18 00:30:00
+date:   2018-10-06 00:30:00
 author: Alex Choi
 categories: Image-Manipulator
 ---
