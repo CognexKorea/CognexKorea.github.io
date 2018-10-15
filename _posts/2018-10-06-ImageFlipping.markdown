@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "OpenCV-C# / Image Flipping Solution"
+title:  "C#-OpenCV / How to Flip an Image"
 date:   2018-10-06 00:30:00
 author: Alex Choi
 categories: Image-Manipulator
