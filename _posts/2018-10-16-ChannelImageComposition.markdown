@@ -6,8 +6,6 @@ author: Alex Choi
 categories: Image-Manipulator
 ---
 
-# How to Compose Channel Images using Python-OpenCV
-
 Sometimes we need to set up various lightings to see defects better (Certain defects like scratch, dent, etc. are a sort of directional).
 
 For instance, each image acquired from four different light directions can be fed into four channles of an image with which ViDi can analyze.
