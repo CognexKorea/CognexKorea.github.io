@@ -123,7 +123,7 @@ Verification was done by comparing between the results from ViDi production mode
 
 <img src="{{ site.baseurl }}/assets/posts/2018-10-30-ViDiCSharpRuntimeDynamicMasking/04.png">
 
-Five images are compared with and without masks for both runtime code and productino mode in ViDi.
+Five images are randonly chosen among mismatches to compare with and without masks for both runtime code and productino mode in ViDi.
 
 The mask images are exported manually for the corresponding images (Edit Mask > Export).
 
