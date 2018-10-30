@@ -23,17 +23,17 @@ You can down load Python source from [this Github Repository](https://github.com
 * [Python-OpenCV](https://pypi.org/project/opencv-python/) (cv2) : ver. 3.4.3+
 
 If you are using Anaconda as Python management system then you can install Python-OpenCV package using [anaconda cloud](https://anaconda.org/conda-forge/opencv).
-Also you can install it using `pip` command (Refer to [this site](https://pypi.org/project/opencv-python/).
+Also you can install it using `pip` command (Refer to [this site](https://pypi.org/project/opencv-python/)).
 
 ------
 ## Method
 Let us assume that we have four images for the same object acquired from different lighting directions.
 
-<img src="{{ site.baseurl }}/assets/posts/2018-10-30-ViDiCSharpRuntimeDynamicMasking/01.png">
+<img src="{{ site.baseurl }}/assets/posts/2018-10-15-ImageComposition/01.png">
 
 Then each image is fed into the channel one by one, for example, R, G, B and A - the composition images must support 4 channels i.e. PNG, TIF, etc.
 
-<img src="{{ site.baseurl }}/assets/posts/2018-10-30-ViDiCSharpRuntimeDynamicMasking/02.png">
+<img src="{{ site.baseurl }}/assets/posts/2018-10-15-ImageComposition/02.png">
 
 ------
 ## Code
@@ -159,6 +159,6 @@ Or, `LIGHT_SELECTION = [3, 1, 4]` means:
 ## Examples
 I give you some examples.
 
-<img src="{{ site.baseurl }}/assets/posts/2018-10-30-ViDiCSharpRuntimeDynamicMasking/03.png">
+<img src="{{ site.baseurl }}/assets/posts/2018-10-15-ImageComposition/03.png">
 
-<img src="{{ site.baseurl }}/assets/posts/2018-10-30-ViDiCSharpRuntimeDynamicMasking/04.png">
+<img src="{{ site.baseurl }}/assets/posts/2018-10-15-ImageComposition/04.png">
