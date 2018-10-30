@@ -6,7 +6,6 @@ author: Alex Choi
 categories: Deep-Learning
 ---
 
-# How to Implement C# Runtime Dyanamic Masking using ViDi API
 In this post I'd like to introduce how to implement "Runtime Dynamic Masking" using C# API.
 
 Please click [here](https://cognexcorporation-my.sharepoint.com/:u:/g/personal/alex_choi_cognex_com/EcheH773qtVHr8GLLq3zoBQBl8Og2m_Zb21__OmKBYabTA?e=kcDD28) to download the Visual Studio Solution.
@@ -87,7 +86,7 @@ static class Globals
 
 In the code above there are bunch of global variables:
 
-|   매크로 상수   |                   설명                   |
+|   Global Variables   |                   Description                   |
 |:---------------:|:----------------------------------------:|
 |  <font face="Consolas">VRWS_PATH</font> | Path where ViDi runtime workspace is located          |
 |  <font face="Consolas">bUseMask</font> | Flag for mask to used or not            |
