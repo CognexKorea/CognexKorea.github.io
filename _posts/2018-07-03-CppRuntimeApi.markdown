@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ViDi / C++ Runtime API Example"
+title:  "ViDi API / C++ Runtime API Example"
 date:   2018-07-03 11:07:00
 author: Alex Choi
 categories: Deep-Learning
@@ -235,7 +235,7 @@ typedef struct
     *  \ref VIDI_IMG_8U or \ref VIDI_IMG_16U
     */
     VIDI_UINT 	channel_depth;
-    /** @brief  
+    /** @brief
     *	distance in memory between 2 pixels
     *	of the same column for 2 consecutive rows.
     *

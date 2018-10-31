@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ViDi / C# Runtime Dynamic Masking"
+title:  "ViDi API / C# Runtime Dynamic Masking"
 date:   2018-10-29 10:25:00
 author: Alex Choi
 categories: Deep-Learning

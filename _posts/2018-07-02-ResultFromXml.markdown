@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ViDi / How to Get Results from XML Data in ViDi C API"
+title:  "ViDi API / How to Get Results from XML Data in ViDi C API"
 date:   2018-07-02 16:17:00
 author: Alex Choi
 categories: Deep-Learning

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RANSAC Algorithm"
+title:  "Algorithm / RANSAC"
 date:   2018-03-25 23:02:00
 author: Alex Choi
 categories: Computer-Vision

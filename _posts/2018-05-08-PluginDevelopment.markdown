@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ViDi / How to Develop a Plugin for ViDi"
+title:  "ViDi API / How to Develop a Plugin for ViDi"
 date:   2018-05-08 23:15:00
 author: Alex Choi
 categories: Deep-Learning

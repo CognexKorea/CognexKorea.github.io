@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to Set up Dynamic Masking Training Workspace"
+title:  "ViDi API / How to Set up Dynamic Masking Training Workspace"
 date:   2018-04-24 16:32:00
 author: Alex Choi
 categories: Deep-Learning

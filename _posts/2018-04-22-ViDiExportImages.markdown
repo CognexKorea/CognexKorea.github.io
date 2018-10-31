@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to Export Images in ViDi"
+title:  "ViDi Tips & Tricks / How to Export Images in ViDi"
 date:   2018-04-22 14:57:00
 author: Alex Choi
 categories: Deep-Learning
