@@ -14,14 +14,14 @@ Please click [here](https://cognexcorporation-my.sharepoint.com/:u:/g/personal/a
 ## Motivation
 In the previous post, I've introduced [Dynamic Masking of Training Version](https://cognexkorea.github.io/deep-learning/2018/04/24/DynamicMasking.html) and I've been curious about how to implement the same thing in Runtime mode.
 
-As you might excercise with ViDi Advanced Tutorial #4 - `Advanced Tutorial 4 - Dynamical Masking`, there's the better performance of Green Classification Tool with dynamic masking using Red Tool.
+As you might excercise with ViDi Advanced Tutorial #4 - `Advanced Tutorial 4 - Dynamical Masking`, which shows a better performance of Green Classification Tool with dynamic masking using Red Tool.
 
 Using the Tutorial Workspace I separate two different Runtime Workspaces, one is for without mask and the other with mask and eventaully I wanted to compare the results from my implementation of Runtime dynamic masking and that from ViDi Production mode.
 
 ------
 ## Toolchain
 #### Classification without Dynamic Masking
-Only Green tool was used to classfy batteries which has background unmasked.
+Only Green tool was used to classfy batteries which have background unmasked.
 
 <img src="{{ site.baseurl }}/assets/posts/2018-10-30-ViDiCSharpRuntimeDynamicMasking/01.png">
 
