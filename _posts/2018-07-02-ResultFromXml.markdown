@@ -178,7 +178,7 @@ vec_files = get_all_files_names_within_folder(img_path);
 For Loop를 이용하여 각 이미지를 불러오고 이를 `vidi_training_tool_get_marking()`로부터 정보를 가져온 후 각 정보를 CSV 파일로 저장합니다:
 
 {% highlight csharp %}
-or (std::vector<int>::size_type i = ; i < vec_files.size(); ++i)
+for (std::vector<int>::size_type i = ; i < vec_files.size(); ++i)
 {
     img_name = vec_files[i].c_str();
     CHECK_DLL_CALL(vidi_training_tool_get_marking(workspace_name, stream_name, tool_name, img_name, "", &marking));
