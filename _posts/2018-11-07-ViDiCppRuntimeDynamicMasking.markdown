@@ -393,7 +393,7 @@ In masking mode being on there are 3 images to be blended - original test image,
 Regarding alph blending and image overlay please refer to the functions `AlphaBlending()` and `OverlayImage()` described in the whole code part.
 
 ------
-## Verification
+## Results & Verification
 Verification was done by comparing between the results from ViDi production mode and those from C++ API Runtime code.
 
 The results are taken from the previous post - [C# Runtime Dynamic Masking](https://cognexkorea.github.io/deep-learning/2018/10/29/ViDiCSharpRuntimeDynamicMasking.html).
@@ -410,7 +410,7 @@ Also for the test with dynamic masking as our second trial the result window sho
 
 <img src="{{ site.baseurl }}/assets/posts/2018-11-07-ViDiCppRuntimeDynamicMasking/04.png">
 
-Five images are randomly chosen among mismatches to compare with and without masks for both runtime code and production mode in ViDi.
+<strong>Note that</strong> Five images are randomly chosen among mismatches to compare with and without masks for both runtime code and production mode in ViDi.
 
 The mask images are exported manually for the corresponding images (Edit Mask > Export).
 
@@ -419,6 +419,22 @@ The mask images are exported manually for the corresponding images (Edit Mask > 
 The name of each file contains its category. For example the file `Cat12-00007.png` belongs to `Cat12` class.
 
 As we can see from the table above, if we round off the numbers of `Dynamic Masking using Runtime API` to the nearest hundredths the same results between two cases, which means dynamic masking turned out to be proven.
+
+<br/>
+#### WITHOUT Dynamic Masking
+<img src="{{ site.baseurl }}/assets/posts/2018-11-07-ViDiCppRuntimeDynamicMasking/06.png">
+
+<br/>
+#### WITH Dynamic Masking
+<img src="{{ site.baseurl }}/assets/posts/2018-11-07-ViDiCppRuntimeDynamicMasking/05.png">
+
+------
+## Further Works
+As mentioned all mask images are not generated from Red tool but by manually.
+
+In fact, in order for us to use runtime dynamic masking we need a procedure of automatically generating mask images with Red tool.
+
+Thus I will try to find the method and share it in the next blog post.
 
 ------
 ## Entire Code
