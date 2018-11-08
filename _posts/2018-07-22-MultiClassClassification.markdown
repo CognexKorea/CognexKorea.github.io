@@ -26,7 +26,7 @@ ViDi 3.1이 기본경로에 설치되어 있는 분들은 아래 링크에서 Di
 
 [ViDi 3.1 Display Filter 도큐먼트 바로가기](http://13.125.95.237/vidi_documentation/Default.htm#ViDi_Topics/Concepts/images_display_filters_sort.htm%3FTocPath%3DCognex%2520ViDi%2520Suite%2520Concepts%7CImages%7C_____2)
 
-심지어 `best_tag를` 검색창에 입력하여 검색해 보면,
+심지어 `best_tag`를 검색창에 입력하여 검색해 보면,
 <br/><br/>
 
 <img src="{{ site.baseurl }}/assets/posts/2018-07-22-MultiClassClassification/02.png">
