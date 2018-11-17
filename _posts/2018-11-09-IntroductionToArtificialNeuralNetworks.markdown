@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Deep Learning Theory / Introduction to Aritificial Neural Netowkrs"
+title:  "Deep Learning Theory / Introduction to Aritificial Neural Networks"
 date:   2018-11-09 23:25:00
 author: Alex Choi
 categories: Deep-Learning
