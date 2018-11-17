@@ -237,7 +237,7 @@ model_results <- neuralnet::compute(monk_model, monk_test[2:7])
 [1] "neurons"    "net.result"
 ```
 
-인데, neurons는 뉴럴 네트워크의 각 레이어의 뉴런 출력값들이며, `net.result`는 뉴럴 네트워크의 전체 결과를 행렬 형태로 저장한 값(현재 우리가 풀고 있는 문제에서는 벡터)입니다.
+인데, `neurons`는 뉴럴 네트워크의 각 레이어의 뉴런 출력값들이며, `net.result`는 뉴럴 네트워크의 전체 결과를 행렬 형태로 저장한 값(현재 우리가 풀고 있는 문제에서는 벡터)입니다.
 
 `net.result`이 테스트 데이터에 대한 분류 결과입니다.
 
@@ -266,7 +266,7 @@ predicted_monk <- model_results$net.result
 
 그러면 실제 데이터의 class와  ANN을 통해 예측된 값의 오차를 확인해 보도록 합니다.
 
-이를 확인하려면 두 값 사이의 의존성을 분석하면 되는데, 이것을 상관관계(Correlation) 분석이라고 하며 대표적인 것으로 피어슨(Pearson), 켄달(Kendall), 스피어만(Spearman) 상관계수 등이 있다.
+이를 확인하려면 두 값 사이의 의존성을 분석하면 되는데, 이것을 상관관계(Correlation) 분석이라고 하며 대표적인 것으로 피어슨(Pearson), 켄달(Kendall), 스피어만(Spearman) 상관계수 등이 있습니다.
 
 테스트 데이터와 ANN을 통해 예측된 데이터와의 상관관계를 계산해 보도록 합니다:
 
@@ -331,6 +331,8 @@ predicted_monk <- model_results$net.result
 와 같은데, 은닉 레이어가 3개 사용된 경우 극적으로 결과가 좋아졌음을 알 수 있습니다.
 
 그러나, 3개 사용된 경우에 비해 4개 사용되는 경우 계산량은 2개 가까이 많아졌는데 결과는 오히려 더 안 좋아졌으며, 5개 사용된 경우 결과는 다시 좋아졌음을 알 수 있습니다.
+
+<img src="{{ site.baseurl }}/assets/posts/2018-11-16-IntroductionToArtificialNeuralNetworks2/03.png">
 
 위의 이미지는 시험삼아 은닉 레이어를 10개 사용한 경우인데 눈이 돌아갈 정도로 복잡해 보입니다.
 
