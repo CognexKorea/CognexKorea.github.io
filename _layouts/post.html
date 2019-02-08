@@ -114,6 +114,13 @@ layout: default
 	</section>
 {% endif %}
 
+{% if site.disqus_account %}
+      <div class="content-panel comments">
+        <div id="disqus_thread"></div>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </div>
+      {% endif %}
+
 {% if site.disqus_shortname %}
 {% unless page.disqus_disabled %}
 <section class="disqus">
@@ -136,3 +143,14 @@ layout: default
 
 </div>
 </div>
+
+{% if site.disqus_account %}
+<script type="text/javascript">
+  (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://cinema4dr12-disqus-com.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', + new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+{% endif %}
